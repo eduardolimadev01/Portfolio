@@ -9,18 +9,20 @@
 </head>
 
 <body>
-    <hedaer>
-        <h1>Eduardo Lima</h1>
-    </hedaer>
+    <header id="header"></header>
     <main>
         <section>
         </section>
         <section>
         </section>
     </main>
-    <footer>
+    <footer> </footer>
 
-    </footer>
+    <script>
+        fetch("components/header.html")
+            .then(response => response.text())
+            .then(data => document.getElementById("header").innerHTML = data)
+    </script>
 </body>
 
 </html>
