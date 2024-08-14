@@ -36,7 +36,7 @@ sinta-se à vontade para me contatar.
 
 - **E-mail**: eduardolimadesenvolvedor@gmail.com
 - **LinkedIn**: [Eduardo Lima](https://www.linkedin.com/in/eduardo-ldev)
-- **GitHub**: [Seu GitHub](https://github.com/eduardolimadev01)
+- **GitHub**: [eduardolimadev01](https://github.com/eduardolimadev01)
 
 ## 📄 Licença
 
