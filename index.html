@@ -1,28 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio - Eduardo Lima</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Eduardo Lima</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <header id="header"></header>
-    <main>
-        <section>
-        </section>
-        <section>
-        </section>
-    </main>
-    <footer> </footer>
-
-    <script>
-        fetch("components/header.html")
-            .then(response => response.text())
-            .then(data => document.getElementById("header").innerHTML = data)
-    </script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>
