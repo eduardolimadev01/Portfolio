@@ -20,14 +20,19 @@ export const Header = () => {
 	return <header
 		className="w-full border-b-2 text-xl"
 	>
-		<div className="container mx-auto flex w-full justify-between items-center py-5">
-			<h1
-				className="flex gap-3 items-center"
-			>
-				<img src={imgLogo} />
-				Eduardo Lima
+		<div
+			className=
+			"container mx-auto flex w-full justify-between items-center py-5"
+		>
+			<h1>
+				<a
+					className="flex gap-3 items-center hover:underline"
+					href="/"
+				>
+					<img src={imgLogo} />
+					Eduardo Lima
+				</a>
 			</h1>
-
 			<nav>
 				<ul
 					className="flex gap-3 text-lg"
@@ -41,8 +46,7 @@ export const Header = () => {
 					)}
 				</ul>
 			</nav>
-
-			<button>butão</button>
+			<div />
 		</div>
 	</header>
 }
